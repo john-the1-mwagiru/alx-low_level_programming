@@ -8,8 +8,13 @@
  * 2-strlen.c - returns the length of a string.
  * @s: character to be rested.
  */
-int _strlen(char *s)
+size_t _strlen(const char *str)
 {
-strlen(*s)
+	size_t length = 0;
+
+	while (*str++)
+		length++;
+
+	return (length);
 }
  
