@@ -1,6 +1,5 @@
 /*
  * File: 4-print_rev.c
- * Auth: Maurice Kyalo
  */
 
 #include "main.h"
