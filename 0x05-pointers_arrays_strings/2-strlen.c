@@ -12,11 +12,12 @@
  */
 size_t _strlen(const char *str)
 {
-int length = 0;
+	int length = 0;
+	int index = 0;
 
-for (int i = 0; str[i] != '\0'; i++)
-{
-	length++;
-	return (length);
-}
+	while (str[index++])
+	{
+		length++;
+		return (length);
+	}
 }
