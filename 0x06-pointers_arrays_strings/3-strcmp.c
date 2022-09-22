@@ -1,3 +1,7 @@
+/*
+ * File: 3-strcmp.c
+ */
+
 #include "main.h"
 
 /**
