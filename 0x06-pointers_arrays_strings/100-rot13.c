@@ -1,6 +1,5 @@
 /*
  * File: 8-rot13.c
- * Auth: Maurice Kyalo
  */
 
 #include "main.h"
