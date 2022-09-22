@@ -1,3 +1,8 @@
+/*
+ * File: 0-strcat.c
+ * Auth: Maurice Kyalo
+ */
+
 #include "main.h"
 
 /**
