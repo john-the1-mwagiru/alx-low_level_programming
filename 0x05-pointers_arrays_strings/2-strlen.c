@@ -19,5 +19,5 @@ size_t _strlen(const char *str)
 	index++;
 	}
 
-		return (length);
+		return (index);
 }
