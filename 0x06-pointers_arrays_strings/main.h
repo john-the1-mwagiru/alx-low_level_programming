@@ -3,7 +3,6 @@
 
 /**
  * File: main.h
- * Auth: Maurice Kyalo
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x05-pointers_arrays_strings directory.
  */
