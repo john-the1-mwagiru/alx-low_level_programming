@@ -15,7 +15,7 @@ size_t _strlen(const char *str)
 	int length = 0;
 	int index = 0;
 
-	while (str[index++])
+	while (str[index] != '\0')
 
 		length++;
 
