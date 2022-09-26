@@ -1,21 +1,24 @@
-#include <stdio.h>
+/*
+ * File: 0-memset.c
+ */
+
+#include "main.h"
+
 /**
- * memset -  fills memory with a constant byte.
- * b: replaces all characters in the string.
- * Return: a pointer.
+ * memset - Fills the first n bytes of the memory area
+ *          pointed to by @s with the constant byte @b.
+ * @s: A pointer to the memory area to be filled.
+ * @b: The character to fill the memory area with.
+ * @n: The number of bytes to be filled.
+ *
+ * Return: A pointer to the filled memory area @s.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	int length = 0;
-	int measure;
+	unsigned int index;
 
-	for (int l = 0; s[l] != '\0'; l++)
-	{
-		 measure = length ++;
-	}
-	for (int n = 0; n < measure; n++)
-	{
-		s[n] = 'b';
-	}
+	for (index = 0; index < n; index++)
+		s[index] = b;
+	
 	return (s);
 }
